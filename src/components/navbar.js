@@ -20,15 +20,6 @@ const Navbar = () => {
           </a>
           <div className="nav-collapse collapse">
             <ul className="nav">
-              <li className="active">
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#about">About</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
-              </li>
             </ul>
           </div>
         </div>

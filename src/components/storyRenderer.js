@@ -11,7 +11,7 @@ const StoryRenderer = ({ stories, typeTime}) => {
   useEffect(() => {
     // Randomly select the initial storyIndex only on the first render
     if (storyIndex === 0) {
-      const randomIndex = Math.floor(Math.random() * stories.length);
+      const randomIndex = Math.floor(Math.random() * (stories.length-1));
       setStoryIndex(randomIndex);
     }
   }, [storyIndex, stories]);
